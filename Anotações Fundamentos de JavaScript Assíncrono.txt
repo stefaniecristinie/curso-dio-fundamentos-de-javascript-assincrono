@@ -1,0 +1,18 @@
+Assincronicidade: 
+- Definição: 
+Síncrono: os estudantes vão para os cursos numa data específica, num tempo específico e todo mundo precisa estar lá naquele momento, não fazendo mais nenhuma outra coisa.
+Assíncrono: os alunos se envolvem nas atividades do curso a qualquer momento, contribuindo em seu próprio ritmo. Pode fazer uma coisa enquanto faz outra também.
+
+Promise: exemplo - depois de 2000 (2 seg) --> resolve.
+.then - depois caso seja bem sucedida a promise, caso seja resolvida.
+.catch - caso aconteça algum erro. Capturar erro com mensagem do erro. 
+
+- Palavras-chave "async" e "await": funções assíncronas.
+- async = funções assíncronas.
+- Para resolver uma promise, é preciso dizer que essa função irá ser assíncrona para utilizar a palavra await (irá parar o código e esperar a promise se resolver, só depois de resolvido, o código continua rodando).
+- JavaScript acontece de maneira síncrona.
+
+Consumindo APIs:
+- APIs: banco de dados, por meio de URLs, ele possui uma API, que pode se comunicar com os aplicativos e outras APIs.
+
+- Método fetch(): retorna uma promise. É preciso utilizar o await.
